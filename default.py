@@ -23,7 +23,7 @@ log            = xbmcvfs.translatePath('special://logpath/')
 ###################################
 #
 def flawless():
-	choice = DIALOG.yesno('Close System', '[COLOR %s]You are about to close The Media Center. Would you like to continue?[/COLOR]' % COLOR2, nolabel='[B][COLOR red] No Cancel[/COLOR][/B]', yeslabel='[B][COLOR green]Yes Close[/COLOR][/B]')
+	choice = DIALOG.yesno('Exit Kodi', '[COLOR %s][/COLOR]' % COLOR2, nolabel='[B][COLOR red]Back[/COLOR][/B]', yeslabel='[B][COLOR green]Exit[/COLOR][/B]')
 	if choice == 1:
 		os._exit(1)
 	else:
@@ -292,3 +292,4 @@ elif mode==736642:
         omfci()		
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
