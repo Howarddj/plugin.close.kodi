@@ -8,7 +8,7 @@ ADDON = xbmcaddon.Addon(id=addon_id)
 FANART = xbmcvfs.translatePath(os.path.join('special://home/addons/' + addon_id , 'fanart.jpg'))
 ICON = xbmcvfs.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
 ART = xbmcvfs.translatePath(os.path.join('special://home/addons/' + addon_id + '/resources/art/'))
-VERSION = "4.0.0"
+VERSION = "5.0.0"
 PATH = "forceclose"            
 BASE = "fclose"
 DIALOG         = xbmcgui.Dialog()
@@ -292,4 +292,5 @@ elif mode==736642:
         omfci()		
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
+
 
