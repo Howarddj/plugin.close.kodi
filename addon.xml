@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="5.0.0" provider-name="Howarddj">
+<addon id="plugin.close.kodi" name="Force Close Kodi" version="5.0.0" provider-name="Howarddj">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
@@ -12,4 +12,5 @@
     <platform>all</platform>
   </extension>
 </addon>
+
 
